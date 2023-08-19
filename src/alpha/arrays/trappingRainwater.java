@@ -28,6 +28,17 @@ public class trappingRainwater {
             int waterlevel=waterheight-h[i];
             totalWater+=waterlevel;
         }
+        for(int i=0;i<n;i++){
+            System.out.println("left max boundry: ");
+            System.out.print(leftMaxBoundry[i]+" ");
+        }
+        System.out.println();
+        for(int i=0;i<n;i++){
+            System.out.println("right max boundry: ");
+            System.out.print(rightMaxboundry[i]+" ");
+        }
+        System.out.println();
+
         return totalWater;
     }
     public static void main(String []args){
